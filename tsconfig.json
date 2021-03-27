@@ -1,0 +1,21 @@
+{
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "lib": ["es2020", "dom", "esnext"],
+    "allowJs": true,
+    "incremental": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    "noEmit": false,
+    "strict": true,
+    "moduleResolution": "node",
+    "baseUrl": "src",
+    "paths": {},
+    "resolveJsonModule": true,
+    "inlineSources": true,
+    "skipLibCheck": true
+  }
+}

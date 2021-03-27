@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Serializer (HTML) Default config Multiline sentence 1`] = `"<div>First line.</div> <div>Line 2.</div>"`;
+
+exports[`Serializer (HTML) Default config Rich text - Prague 1`] = `"<div><h1><strong>P</strong> rague</h1></div> <div><strong>Prague</strong> is a political, cultural and economic centre of <em>central Europe</em> complete with a <del>big</del> rich history.</div>"`;
+
+exports[`Serializer (HTML) Default config Single nested structure 1`] = `"<strong><h1><em>test</em></h1></strong>"`;
+
+exports[`Serializer (HTML) Default config String sentence 1`] = `"This is a simple test."`;
+
+exports[`Serializer (HTML) Rewrite default serializers Multiline sentence 1`] = `"<div>First line.</div><div>Line2.</div>"`;
+
+exports[`Serializer (HTML) Rewrite default serializers Rich text - Prague 1`] = `"<div><section class=\\"header-1\\"><div class=\\"bold-div\\">P</div>rague</section></div><div><div class=\\"bold-div\\">Prague</div>is a political, cultural and economic centre of<em>central Europe</em>complete with a<del>big</del>rich history.</div>"`;
+
+exports[`Serializer (HTML) Rewrite default serializers Single nested structure 1`] = `"<div class=\\"bold-div\\"><section class=\\"header-1\\"><em>test</em></section></div>"`;
+
+exports[`Serializer (HTML) Rewrite default serializers String sentence 1`] = `"Thisisa simpletest."`;
+
+exports[`Serializer (HTML) Use default class serializers Multiline sentence 1`] = `"<div class=\\"container\\">First line.</div><div class=\\"container\\">Line2.</div>"`;
+
+exports[`Serializer (HTML) Use default class serializers Rich text - Prague 1`] = `"<h1 class=\\"container\\"><span class=\\"text-bold\\">P</span>rague</h1><div class=\\"container\\"><span class=\\"text-bold\\">Prague</span>is a political, cultural and economic centre of<span class=\\"text-italic\\">central Europe</span>complete with a<span class=\\"strike\\">big</span>rich history.</div>"`;
+
+exports[`Serializer (HTML) Use default class serializers Single nested structure 1`] = `"<h1 class=\\"text-bold\\"><span class=\\"text-italic\\">test</span></h1>"`;
+
+exports[`Serializer (HTML) Use default class serializers String sentence 1`] = `"Thisisa simpletest."`;

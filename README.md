@@ -3,6 +3,14 @@
 # JSON Rich text
 Simple json format to represent and serialize your rich text.
 
+[![Build Status](https://travis-ci.com/pavelsvagr/json-rt.svg?branch=master)](https://travis-ci.com/pavelsvagr/json-rt)
+[![Coverage Status](https://img.shields.io/coveralls/github/pavelsvagr/json-rt.svg?style=flat-square)](https://coveralls.io/github/pavelsvagr/json-rt?branch=master)
+![GitHub](https://img.shields.io/github/license/pavelsvagr/json-rt)
+[![Known Vulnerabilities](https://snyk.io/test/github/pavelsvagr/json-rt/badge.svg?targetFile=package.json)](https://snyk.io/test/github/pavelsvagr/json-rt?targetFile=package.json)
+[![Dependencies](https://img.shields.io/david/pavelsvagr/json-rt.svg?style=flat-square)](https://david-dm.org/pavelsvagr/json-rt)
+[![Dev dependencies](https://img.shields.io/david/dev/pavelsvagr/json-rt.svg?style=flat-square)](https://david-dm.org/pavelsvagr/json-rt)
+[![Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+
 </div>
 
 ## 🚀 How to use

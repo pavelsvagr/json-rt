@@ -7,6 +7,10 @@
     "rich text",
     "format"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavelsvagr/json-rt.git"
+  },
   "author": "Pavel Švagr",
   "license": "MIT",
   "main": "./dist/main.js",
@@ -27,6 +31,10 @@
     "ci-test": "npm run cover -- --reporters=default --reporters=jest-junit --ci",
     "ci-lint": "npm run lint -- --f checkstyle -o ./output/checkstyle-result.xml"
   },
+  "bugs": {
+    "url": "https://github.com/pavelsvagr/json-rt/issues"
+  },
+  "homepage": "https://github.com/pavelsvagr/json-rt#readme",
   "engines": {
     "node": "14.15.1",
     "npm": "6.14.8"

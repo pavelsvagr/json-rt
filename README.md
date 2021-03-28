@@ -3,6 +3,9 @@
 # JSON Rich text
 Simple json format to represent and serialize your rich text.
 
+![logo](https://i.imgur.com/WWFkKl0.png)
+
+
 [![Build Status](https://travis-ci.com/pavelsvagr/json-rt.svg?branch=master)](https://travis-ci.com/pavelsvagr/json-rt)
 [![Coverage Status](https://img.shields.io/coveralls/github/pavelsvagr/json-rt.svg?style=flat-square)](https://coveralls.io/github/pavelsvagr/json-rt?branch=master)
 ![GitHub](https://img.shields.io/github/license/pavelsvagr/json-rt)

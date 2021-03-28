@@ -17,7 +17,7 @@ Simple json format to represent and serialize your rich text.
 </div>
 
 ## 🚀 How to use
-Just write a simple json structure, that is readable:
+Just write a simple json like structure, that is readable:
 
 ```js
 import { RichTextJson } from 'json-rt'
@@ -26,6 +26,16 @@ const myText: RichTextJson = [
   'This is my first', { text: 'beautiful', bold: true}, 'rich text!'
 ]
 ```
+
+For string parsing use simply `JSON.parse` or `jsonSerializer.parse`:
+
+```js
+import { jsonSerializer } from 'json-rt'
+
+const serializer = jsonSerializer()
+const jsonRichText = serializer.parse("[\"hello\", {\"text\": \"world\", \"bold\":true}]")
+```
+
 ## 📃 Html serializer
 Serialize json object into html using htmlParser
 ```js
@@ -69,6 +79,10 @@ const html = serializer.convert(myText)
 | header | `number` (level)     |    Header of given level | `<h{level}>`  |
 | line | `boolean`      |   Makes content on new line | `<div>`  |
 
+
+## ✅ TODO
+- Do right json parsing with type checks
+- htmlSerializer parse function
 
 ## 🔮 Planned features
 - More supported markup by default: color, class...

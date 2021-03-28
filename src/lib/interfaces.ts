@@ -25,6 +25,7 @@ export type RichTextJson = RichTextBlock[]
 
 export interface Serializer<T> {
   convert: (richJson: RichTextJson) => T
+  parse?: (content: T) => RichTextJson
 }
 
 export type SerializerConstructor<C, T> = (config?: C) => Serializer<T>

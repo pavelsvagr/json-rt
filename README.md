@@ -53,7 +53,7 @@ const html = serializer.convert(myText)
 Use config to define your own serializers or to redefine default serializers.
 ```js
 const serializer = htmlSerializer({
-  customSerializers: {
+  serializers: {
     // Icon serializer - all content with 'icon' key will be serialized by this.
     // Receives inner content and value from format.
     icon: (content: HtmlContent, iconClass: string): HtmlContent => ({
